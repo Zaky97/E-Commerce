@@ -1,3 +1,4 @@
+// Ambil Element Button dengan id myForm
 const Contact = document.getElementById("myForm");
 Contact.addEventListener("click", function (event) {
   event.preventDefault();
