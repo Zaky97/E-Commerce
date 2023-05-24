@@ -9,7 +9,7 @@ Contact.addEventListener("click", function (event) {
   // Message
   var formattedMessage = "Name: " + name + "\n\nMessage: " + message;
 
-  // APi untuk send ke penjual
+  // Api untuk send ke penjual
   var apiUrl =
     "https://api.whatsapp.com/send?phone=62882000921484&text=" +
     encodeURIComponent(formattedMessage);
