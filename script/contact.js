@@ -1,4 +1,5 @@
-document.getElementById("myForm").addEventListener("submit", function (event) {
+const Contact = document.getElementById("myForm");
+Contact.addEventListener("click", function (event) {
   event.preventDefault();
 
   var name = document.getElementById("name").value;
