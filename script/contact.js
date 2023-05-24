@@ -1,0 +1,15 @@
+document.getElementById("myForm").addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  var name = document.getElementById("name").value;
+  var message = document.getElementById("message").value;
+
+  // Message
+  var formattedMessage = "Name: " + name + "\n\nMessage: " + message;
+
+  // APi untuk send ke penjual
+  var apiUrl =
+    "https://api.whatsapp.com/send?phone=62882000921484&text=" +
+    encodeURIComponent(formattedMessage);
+  window.open(apiUrl, "_blank"); // Open WhatsApp in a new tab/window
+});
