@@ -7,7 +7,7 @@ Contact.addEventListener("click", function (event) {
   var message = document.getElementById("message").value;
 
   // Message
-  var formattedMessage = "Name: " + name + "\n\nMessage: " + message;
+  var formattedMessage = "Name: " + name + "\n\nMessage:\n " + message;
 
   // Api untuk send ke penjual
   var apiUrl =
