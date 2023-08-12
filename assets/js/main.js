@@ -137,3 +137,14 @@ var removeElements = function() {
 var tick = 100;
 
 setInterval(removeElements, tick);
+
+
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/64d7357c94cf5d49dc69f0e8/1h7kahsk4';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
