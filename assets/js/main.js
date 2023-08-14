@@ -142,6 +142,3 @@ function pesen(event) {
     alert("Tolong gunakan Widget Chat Hitam di pojok kiri bawah untuk pesan.");
     event.preventDefault();
 }
-
-var pesens = document.getElementById("pesen"); 
-pesens.addEventListener("click", pesen);
