@@ -139,4 +139,12 @@ var tick = 100;
 setInterval(removeElements, tick);
 
 
+var bakpao = "Bakpao 5k coy";
+        
+function pesen(event) {   
+    alert("SIlahkan Pesan Melalui Widget Chat Berwarna Hitam Di pojok Kiri bawah");
+    event.preventDefault();
+}
 
+var pesen = document.getElementById("your-button-id"); // Replace with your actual button ID
+button.addEventListener("click", pesen);
