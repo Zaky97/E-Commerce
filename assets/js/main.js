@@ -146,5 +146,5 @@ function pesen(event) {
     event.preventDefault();
 }
 
-var pesen = document.getElementById("your-button-id"); // Replace with your actual button ID
-button.addEventListener("click", pesen);
+var pesens = document.getElementById("pesen"); 
+pesens.addEventListener("click", pesen);
