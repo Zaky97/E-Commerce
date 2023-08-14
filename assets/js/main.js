@@ -137,9 +137,6 @@ var removeElements = function() {
 var tick = 100;
 
 setInterval(removeElements, tick);
-
-
-var bakpao = "Bakpao 5k coy";
         
 function pesen(event) {   
     alert("SIlahkan Pesan Melalui Widget Chat Berwarna Hitam Di pojok Kiri bawah");
