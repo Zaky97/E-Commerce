@@ -139,7 +139,7 @@ var tick = 100;
 setInterval(removeElements, tick);
         
 function pesen(event) {   
-    alert("SIlahkan Pesan Melalui Widget Chat Berwarna Hitam Di pojok Kiri bawah");
+    alert("Tolong gunakan Widget Chat Hitam di pojok kiri bawah untuk pesan.");
     event.preventDefault();
 }
 
